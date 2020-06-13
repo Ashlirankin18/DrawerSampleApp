@@ -16,6 +16,7 @@
 		2E7C81F12494F94C003ED031 /* DrawSampleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7C81F02494F94C003ED031 /* DrawSampleProjectTests.swift */; };
 		2E7C81FE2494FBAD003ED031 /* DrawerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7C81FC2494FBAD003ED031 /* DrawerDetailViewController.swift */; };
 		2E7C81FF2494FBAD003ED031 /* DrawerDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E7C81FD2494FBAD003ED031 /* DrawerDetailViewController.xib */; };
+		2E7C8203249501BC003ED031 /* ConfettiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7C8202249501BC003ED031 /* ConfettiViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		2E7C81F22494F94C003ED031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E7C81FC2494FBAD003ED031 /* DrawerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerDetailViewController.swift; sourceTree = "<group>"; };
 		2E7C81FD2494FBAD003ED031 /* DrawerDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrawerDetailViewController.xib; sourceTree = "<group>"; };
+		2E7C8202249501BC003ED031 /* ConfettiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +85,9 @@
 		2E7C81D82494F94A003ED031 /* DrawSampleProject */ = {
 			isa = PBXGroup;
 			children = (
+				2E7C8201249500E0003ED031 /* Confetti */,
 				2E7C81FB2494FB79003ED031 /* Supporting Files */,
-				2E7C81DD2494F94A003ED031 /* DrawerDisplayViewController.swift */,
-				2E7C81DF2494F94A003ED031 /* Main.storyboard */,
+				2E7C8200249500D5003ED031 /* Drawer */,
 				2E7C81E72494F94B003ED031 /* Info.plist */,
 				2E7C81FC2494FBAD003ED031 /* DrawerDetailViewController.swift */,
 				2E7C81FD2494FBAD003ED031 /* DrawerDetailViewController.xib */,
@@ -111,6 +113,23 @@
 				2E7C81E42494F94B003ED031 /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E7C8200249500D5003ED031 /* Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				2E7C81DD2494F94A003ED031 /* DrawerDisplayViewController.swift */,
+				2E7C81DF2494F94A003ED031 /* Main.storyboard */,
+			);
+			path = Drawer;
+			sourceTree = "<group>";
+		};
+		2E7C8201249500E0003ED031 /* Confetti */ = {
+			isa = PBXGroup;
+			children = (
+				2E7C8202249501BC003ED031 /* ConfettiViewController.swift */,
+			);
+			path = Confetti;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +238,7 @@
 				2E7C81DE2494F94A003ED031 /* DrawerDisplayViewController.swift in Sources */,
 				2E7C81DA2494F94A003ED031 /* AppDelegate.swift in Sources */,
 				2E7C81DC2494F94A003ED031 /* SceneDelegate.swift in Sources */,
+				2E7C8203249501BC003ED031 /* ConfettiViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
